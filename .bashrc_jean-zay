@@ -1,0 +1,13 @@
+load_julia()
+{
+        module purge
+        module load julia/1.10.4
+        export JULIA_DEPOT_PATH=/lustre/fswork/projects/rech/cli/rote001/DEV/julia
+}
+load_julia_gpu()
+{
+        module purge
+        module load julia/1.10.4
+        module load cuda/12.4.1
+        export JULIA_DEPOT_PATH=/lustre/fswork/projects/rech/cli/rote001/DEV/julia
+}

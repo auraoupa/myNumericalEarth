@@ -1,0 +1,600 @@
+    Checking for new Julia versions
+  Installing Julia 1.12.6+0.x64.linux.gnu
+         Add Installed Julia channel 'release'
+Precompiling packages...
+   7456.6 ms  ✓ UnPack
+   8025.1 ms  ✓ GeoFormatTypes
+   8287.7 ms  ✓ Glob
+   8252.5 ms  ✓ StatsAPI
+   8039.1 ms  ✓ OpenLibm_jll
+   9812.3 ms  ✓ ChunkCodecCore
+  10228.8 ms  ✓ IteratorInterfaceExtensions
+  10364.2 ms  ✓ MuladdMacro
+  10633.5 ms  ✓ OpenSSL_jll
+  10431.2 ms  ✓ NetworkOptions
+  10117.2 ms  ✓ Serialization
+  10407.7 ms  ✓ TensorCore
+  10755.2 ms  ✓ ExpressionExplorer
+  10673.6 ms  ✓ AbstractFFTs
+  10505.8 ms  ✓ UnsafeAtomics
+  10305.1 ms  ✓ OffsetArrays
+   3083.8 ms  ✓ UUIDs
+   2954.2 ms  ✓ Logging
+   2943.0 ms  ✓ Statistics
+   2972.5 ms  ✓ NaNMath
+   2989.0 ms  ✓ CommonSolve
+   2970.8 ms  ✓ TableTraits
+   3114.2 ms  ✓ SeawaterPolynomials
+   3141.5 ms  ✓ InverseFunctions
+   3109.0 ms  ✓ ArgTools
+   4425.2 ms  ✓ SuiteSparse_jll
+   4448.6 ms  ✓ nghttp2_jll
+   4259.8 ms  ✓ Unicode
+   4487.6 ms  ✓ ManualMemory
+   4595.5 ms  ✓ StackViews
+   4556.2 ms  ✓ PaddedViews
+   1961.4 ms  ✓ RealDot
+   1948.4 ms  ✓ Reexport
+   1891.1 ms  ✓ Zlib_jll
+   1013.5 ms  ✓ Tar
+    734.6 ms  ✓ Extents
+   2745.7 ms  ✓ Distances
+   1124.7 ms  ✓ Mmap
+   5818.4 ms  ✓ MacroTools
+   1292.3 ms  ✓ SimpleBufferStream
+   2922.0 ms  ✓ SIMDTypes
+   1471.6 ms  ✓ URIs
+   1073.3 ms  ✓ Quaternions
+   1205.1 ms  ✓ HashArrayMappedTries
+   3262.5 ms  ✓ FixedPointNumbers
+   1222.6 ms  ✓ LRUCache
+   1464.9 ms  ✓ TranscodingStreams
+    737.6 ms  ✓ Base64
+    666.3 ms  ✓ CommonWorldInvalidations
+    674.2 ms  ✓ BitFlags
+    703.3 ms  ✓ DataAPI
+    615.7 ms  ✓ SciMLPublic
+   2147.0 ms  ✓ IrrationalConstants
+    714.0 ms  ✓ StaticArraysCore
+    627.0 ms  ✓ MozillaCACerts_jll
+   1064.9 ms  ✓ MappedArrays
+    962.7 ms  ✓ LibSSH2_jll
+   2179.1 ms  ✓ ThreadingUtilities
+   1152.9 ms  ✓ CompilerSupportLibraries_jll
+    944.9 ms  ✓ Requires
+    821.8 ms  ✓ AbstractTrees
+   1088.1 ms  ✓ DataValueInterfaces
+   1422.8 ms  ✓ ConcurrentUtilities
+    827.3 ms  ✓ CompositionsBase
+   1390.1 ms  ✓ Atomix
+   1441.8 ms  ✓ OrderedCollections
+   5395.1 ms  ✓ StyledStrings
+   1378.3 ms  ✓ DocStringExtensions
+    943.9 ms  ✓ IfElse
+   1007.8 ms  ✓ Printf
+   1033.4 ms  ✓ MosaicViews
+    844.6 ms  ✓ Adapt
+   1518.0 ms  ✓ ChunkCodecLibZlib
+   1311.4 ms  ✓ CommonSubexpressions
+   1165.4 ms  ✓ ScopedValues
+   3062.4 ms  ✓ Crayons
+   2705.8 ms  ✓ Distributed
+   1836.0 ms  ✓ LRUCache → SerializationExt
+   1904.9 ms  ✓ LibCURL_jll
+   2342.4 ms  ✓ CodecZlib
+   1938.6 ms  ✓ ZipFile
+   2110.4 ms  ✓ ReactantCore
+   2206.0 ms  ✓ ConstructionBase
+   2312.6 ms  ✓ LibGit2_jll
+   2862.7 ms  ✓ ColorTypes
+   1695.5 ms  ✓ DiffResults
+   3994.1 ms  ✓ SparseArrays
+   2896.1 ms  ✓ GeoInterface
+   2102.5 ms  ✓ CompositionsBase → CompositionsBaseInverseFunctionsExt
+   4815.6 ms  ✓ DataStructures
+   3206.7 ms  ✓ LogExpFunctions
+   2823.8 ms  ✓ GPUArraysCore
+   4189.8 ms  ✓ Dates
+   5024.5 ms  ✓ JuliaSyntaxHighlighting
+   3563.1 ms  ✓ ArrayInterface
+   3601.5 ms  ✓ p7zip_jll
+   4105.1 ms  ✓ LibCURL
+   3936.8 ms  ✓ ConstructionBase → ConstructionBaseLinearAlgebraExt
+   6097.2 ms  ✓ Tables
+   4609.3 ms  ✓ OffsetArrays → OffsetArraysAdaptExt
+   4759.7 ms  ✓ SharedArrays
+   3017.7 ms  ✓ ColorTypes → StyledStringsExt
+   3430.1 ms  ✓ LibGit2
+   3389.0 ms  ✓ Statistics → SparseArraysExt
+   3480.9 ms  ✓ Distances → DistancesSparseArraysExt
+   1228.8 ms  ✓ TOML
+   1078.2 ms  ✓ LogExpFunctions → LogExpFunctionsInverseFunctionsExt
+    885.7 ms  ✓ InverseFunctions → InverseFunctionsDatesExt
+    838.8 ms  ✓ ArrayInterface → ArrayInterfaceStaticArraysCoreExt
+   3987.5 ms  ✓ ColorVectorSpace
+   1495.6 ms  ✓ ArrayInterface → ArrayInterfaceSparseArraysExt
+   1044.2 ms  ✓ Scratch
+   2934.5 ms  ✓ CFTime
+   3270.2 ms  ✓ Adapt → AdaptSparseArraysExt
+   2524.5 ms  ✓ OpenSSL
+   1644.6 ms  ✓ ArrayInterface → ArrayInterfaceGPUArraysCoreExt
+   1557.3 ms  ✓ Preferences
+   2666.5 ms  ✓ StructArrays
+   5737.1 ms  ✓ Colors
+   2178.4 ms  ✓ LoggingExtras
+   2018.3 ms  ✓ DiskArrays
+   2014.9 ms  ✓ Compat
+   2928.2 ms  ✓ Downloads
+    908.3 ms  ✓ JLLWrappers
+   1415.8 ms  ✓ MPIPreferences
+   4417.4 ms  ✓ Markdown
+   1440.4 ms  ✓ PrecompileTools
+   1611.5 ms  ✓ StructArrays → StructArraysSparseArraysExt
+   1299.1 ms  ✓ Compat → CompatLinearAlgebraExt
+   1648.8 ms  ✓ StructArrays → StructArraysAdaptExt
+   1644.7 ms  ✓ StructArrays → StructArraysLinearAlgebraExt
+   3317.6 ms  ✓ Accessors
+   1386.9 ms  ✓ aws_c_common_jll
+   1436.7 ms  ✓ dlfcn_win32_jll
+   1367.6 ms  ✓ Lz4_jll
+   1856.9 ms  ✓ Bzip2_jll
+   1499.3 ms  ✓ libaec_jll
+   1938.5 ms  ✓ Xorg_libpciaccess_jll
+   1590.5 ms  ✓ s2n_tls_jll
+   2961.0 ms  ✓ CommonDataModel
+   1534.1 ms  ✓ XZ_jll
+   1548.7 ms  ✓ FFTW_jll
+   1626.9 ms  ✓ MbedTLS_jll
+   1682.7 ms  ✓ Zstd_jll
+   1681.0 ms  ✓ Libiconv_jll
+   1671.6 ms  ✓ OpenSpecFun_jll
+   7896.8 ms  ✓ Krylov
+   1812.8 ms  ✓ aws_c_cal_jll
+   1962.9 ms  ✓ aws_checksums_jll
+   2476.8 ms  ✓ InteractiveUtils
+   1504.3 ms  ✓ Accessors → LinearAlgebraExt
+   1760.0 ms  ✓ aws_c_sdkutils_jll
+   1326.9 ms  ✓ Blosc_jll
+   2171.0 ms  ✓ ChunkCodecLibZstd
+   2293.1 ms  ✓ aws_c_compression_jll
+   1620.2 ms  ✓ libzip_jll
+   1531.4 ms  ✓ CpuId
+   2530.6 ms  ✓ MbedTLS
+   1310.7 ms  ✓ XML2_jll
+   4208.8 ms  ✓ Accessors → StructArraysExt
+   5181.1 ms  ✓ Static
+   3166.9 ms  ✓ aws_c_io_jll
+   3486.0 ms  ✓ SpecialFunctions
+   2492.3 ms  ✓ Hwloc_jll
+   5605.1 ms  ✓ TaylorSeries
+  12642.7 ms  ✓ Unitful
+   5080.9 ms  ✓ Test
+   7643.8 ms  ✓ StaticArrays
+   4902.3 ms  ✓ Roots
+   4583.5 ms  ✓ BitTwiddlingConvenienceFunctions
+   4277.2 ms  ✓ DiffRules
+   4475.3 ms  ✓ aws_c_http_jll
+   4406.0 ms  ✓ ColorVectorSpace → SpecialFunctionsExt
+   4290.1 ms  ✓ MPICH_jll
+   2903.9 ms  ✓ Unitful → NaNMathExt
+   4818.4 ms  ✓ CPUSummary
+   3025.6 ms  ✓ Unitful → ConstructionBaseUnitfulExt
+   4937.3 ms  ✓ StaticArrayInterface
+   3106.7 ms  ✓ Unitful → InverseFunctionsUnitfulExt
+   3995.9 ms  ✓ CubedSphere
+   2658.8 ms  ✓ CatViews
+   2465.2 ms  ✓ Accessors → UnitfulExt
+   3804.9 ms  ✓ Unitful → PrintfExt
+  11338.9 ms  ✓ ImageCore
+   1565.1 ms  ✓ StaticArrays → StaticArraysStatisticsExt
+   1944.1 ms  ✓ HostCPUFeatures
+   2046.6 ms  ✓ InverseFunctions → InverseFunctionsTestExt
+   2227.4 ms  ✓ Adapt → AdaptStaticArraysExt
+   2259.8 ms  ✓ ExceptionUnwrapping
+   2258.8 ms  ✓ Roots → RootsUnitfulExt
+   3073.7 ms  ✓ AbstractFFTs → AbstractFFTsTestExt
+   2750.7 ms  ✓ ConstructionBase → ConstructionBaseStaticArraysExt
+   3045.0 ms  ✓ Accessors → TestExt
+   1817.1 ms  ✓ aws_c_auth_jll
+   1849.3 ms  ✓ PolyesterWeave
+   1683.1 ms  ✓ StaticArrayInterface → StaticArrayInterfaceOffsetArraysExt
+   1439.4 ms  ✓ CloseOpenIntervals
+   1383.9 ms  ✓ LayoutPointers
+   3202.8 ms  ✓ StructArrays → StructArraysStaticArraysExt
+   4566.1 ms  ✓ Accessors → StaticArraysExt
+   4561.9 ms  ✓ TaylorSeries → TaylorSeriesSAExt
+   1293.2 ms  ✓ TiledIteration
+   5063.7 ms  ✓ Rotations
+   2356.4 ms  ✓ aws_c_s3_jll
+   3823.4 ms  ✓ StaticArrayInterface → StaticArrayInterfaceStaticArraysExt
+   4595.9 ms  ✓ ForwardDiff
+   6904.8 ms  ✓ NearestNeighbors
+   8978.1 ms  ✓ KernelAbstractions
+   7213.3 ms  ✓ RootSolvers
+   7213.1 ms  ✓ Unitful → ForwardDiffExt
+   7364.3 ms  ✓ ForwardDiff → ForwardDiffStaticArraysExt
+   9184.0 ms  ✓ VectorizationBase
+   7410.9 ms  ✓ Roots → RootsForwardDiffExt
+  10962.1 ms  ✓ HTTP
+   2791.8 ms  ✓ KernelAbstractions → LinearAlgebraExt
+   3001.1 ms  ✓ Thermodynamics
+   3868.0 ms  ✓ StructArrays → StructArraysGPUArraysCoreExt
+   4084.4 ms  ✓ KernelAbstractions → SparseArraysExt
+   4000.0 ms  ✓ SLEEFPirates
+   6740.9 ms  ✓ DataDeps
+  34413.6 ms  ✓ Pkg
+   2935.4 ms  ✓ MicrosoftMPI_jll
+   6593.2 ms  ✓ LazyArtifacts
+   7262.4 ms  ✓ PkgVersion
+   3117.9 ms  ✓ oneTBB_jll
+   3433.4 ms  ✓ IntelOpenMP_jll
+   3477.1 ms  ✓ MPItrampoline_jll
+   3439.7 ms  ✓ OpenMPI_jll
+   3530.8 ms  ✓ MPIABI_jll
+  10416.6 ms  ✓ FileIO
+  19196.0 ms  ✓ LoopVectorization
+  11478.5 ms  ✓ mpif_jll
+  11972.9 ms  ✓ MKL_jll
+  11665.6 ms  ✓ FileIO → HTTPExt
+  10249.0 ms  ✓ LoopVectorization → SpecialFunctionsExt
+  17024.6 ms  ✓ MeshArrays
+   2614.8 ms  ✓ HDF5_jll
+  14540.8 ms  ✓ MPI
+   4981.7 ms  ✓ FFTW
+  14990.1 ms  ✓ ImageMorphology
+   8100.9 ms  ✓ NetCDF_jll
+   9571.2 ms  ✓ MeshArrays → MeshArraysDataDepsExt
+  31057.3 ms  ✓ JLD2
+   5674.9 ms  ✓ TaylorSeries → TaylorSeriesJLD2Ext
+   6010.5 ms  ✓ JLD2 → UnPackExt
+  14845.3 ms  ✓ NCDatasets
+   9642.5 ms  ✓ MeshArrays → MeshArraysJLD2Ext
+  10852.4 ms  ✓ NCDatasets → NCDatasetsMPIExt
+  39321.4 ms  ✓ Oceananigans
+  13623.1 ms  ✓ Oceananigans → OceananigansNCDatasetsExt
+  14738.9 ms  ✓ ClimaSeaIce
+  47778.0 ms  ✓ NumericalEarth
+  252 dependencies successfully precompiled in 222 seconds
+Precompiling packages...
+   7361.7 ms  ✓ LLVMLoopInfo
+   3441.3 ms  ✓ RandomNumbers
+   6809.3 ms  ✓ LaTeXStrings
+   6469.8 ms  ✓ CEnum
+   3000.1 ms  ✓ CUDA_Runtime_Discovery
+   6852.7 ms  ✓ ExprTools
+   2462.7 ms  ✓ BFloat16s
+   1473.5 ms  ✓ JuliaNVTXCallbacks_jll
+   1547.7 ms  ✓ LibTracyClient_jll
+   1836.7 ms  ✓ demumble_jll
+   1990.5 ms  ✓ NVTX_jll
+   1392.6 ms  ✓ Random123
+   2311.0 ms  ✓ StringManipulation
+   2773.9 ms  ✓ CUDA_Driver_jll
+   2130.5 ms  ✓ Tracy
+   4269.8 ms  ✓ NVTX
+   8457.5 ms  ✓ LLVMExtra_jll
+  18479.3 ms  ✓ REPL
+  14661.8 ms  ✓ LLVM
+  22022.3 ms  ✓ CUDA_Runtime_jll
+   8226.9 ms  ✓ LLVM → BFloat16sExt
+   8422.1 ms  ✓ GPUToolbox
+   8661.1 ms  ✓ UnsafeAtomics → UnsafeAtomicsLLVM
+  15410.3 ms  ✓ Pkg → REPLExt
+  22512.9 ms  ✓ PrettyTables
+  13034.3 ms  ✓ GPUArrays
+  26306.3 ms  ✓ GPUCompiler
+  31597.9 ms  ✓ CUDA_Compiler_jll
+  55172.2 ms  ✓ CUDA
+  20552.0 ms  ✓ Atomix → AtomixCUDAExt
+  30 dependencies successfully precompiled in 144 seconds. 62 already precompiled.
+Precompiling packages...
+   8532.1 ms  ✓ GPUArrays → JLD2Ext
+  1 dependency successfully precompiled in 23 seconds. 66 already precompiled.
+Precompiling packages...
+   1289.1 ms  ✓ NVTX → NVTXColorsExt
+  1 dependency successfully precompiled in 6 seconds. 37 already precompiled.
+Precompiling packages...
+  16642.2 ms  ✓ MPI → CUDAExt
+  1 dependency successfully precompiled in 34 seconds. 106 already precompiled.
+Precompiling packages...
+  18962.9 ms  ✓ ArrayInterface → ArrayInterfaceCUDAExt
+  1 dependency successfully precompiled in 34 seconds. 96 already precompiled.
+Precompiling packages...
+  18132.0 ms  ✓ CUDA → SpecialFunctionsExt
+  1 dependency successfully precompiled in 41 seconds. 135 already precompiled.
+Precompiling packages...
+  22570.7 ms  ✓ Oceananigans → OceananigansCUDAExt
+  1 dependency successfully precompiled in 53 seconds. 148 already precompiled.
+[ Info: Loading cached bathymetry from /bettik/alberta/julia_myNEGPU/scratchspaces/904d977b-046a-4731-8b86-9235c0d1ef02/bathymetry_cache/bathymetry_360x180_0.0_360.0_-85.22387615721567_90.0_b841e80e.jld2
+[ Info: We've built an ocean simulation with model:
+[ Info: Initializing simulation...
+[ Info: time: 0 seconds, iter: 0, max|uo|: (0.0e+00, 0.0e+00, 0.0e+00) m s⁻¹, extrema(To): (-1.9, 31.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.00 m² s⁻², wall time: 2.324 minutes 
+[ Info:     ... simulation initialization complete (39.424 seconds)
+[ Info: Executing initial time step...
+[ Info:     ... initial time step complete (15.015 minutes).
+[ Info: time: 5 days, iter: 360, max|uo|: (1.6e+00, 1.7e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 33.6) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 15.727 minutes 
+[ Info: time: 10 days, iter: 720, max|uo|: (1.6e+00, 2.0e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 36.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 55.796 seconds 
+[ Info: time: 15 days, iter: 1080, max|uo|: (1.7e+00, 2.0e+00, 1.4e-02) m s⁻¹, extrema(To): (-1.9, 38.4) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 45.710 seconds 
+[ Info: time: 20 days, iter: 1440, max|uo|: (1.6e+00, 1.9e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 39.0) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.004 minutes 
+[ Info: time: 25 days, iter: 1800, max|uo|: (1.5e+00, 1.9e+00, 1.1e-02) m s⁻¹, extrema(To): (-1.9, 41.5) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.02 m² s⁻², wall time: 48.120 seconds 
+[ Info: time: 30 days, iter: 2160, max|uo|: (1.5e+00, 2.0e+00, 9.9e-03) m s⁻¹, extrema(To): (-1.9, 39.8) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.02 m² s⁻², wall time: 52.900 seconds 
+[ Info: time: 35 days, iter: 2520, max|uo|: (1.5e+00, 2.1e+00, 8.7e-03) m s⁻¹, extrema(To): (-1.9, 45.1) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 46.670 seconds 
+[ Info: time: 40 days, iter: 2880, max|uo|: (1.5e+00, 2.1e+00, 8.1e-03) m s⁻¹, extrema(To): (-1.9, 41.8) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 52.426 seconds 
+[ Info: time: 45 days, iter: 3240, max|uo|: (1.4e+00, 1.8e+00, 7.9e-03) m s⁻¹, extrema(To): (-1.9, 41.7) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.02 m² s⁻², wall time: 43.089 seconds 
+[ Info: time: 50 days, iter: 3600, max|uo|: (1.7e+00, 2.1e+00, 7.4e-03) m s⁻¹, extrema(To): (-2.0, 41.6) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.00 m² s⁻², wall time: 54.736 seconds 
+[ Info: time: 55 days, iter: 3960, max|uo|: (1.6e+00, 2.6e+00, 7.0e-03) m s⁻¹, extrema(To): (-1.9, 40.3) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 45.882 seconds 
+[ Info: time: 60 days, iter: 4320, max|uo|: (1.3e+00, 1.5e+00, 6.7e-03) m s⁻¹, extrema(To): (-1.9, 40.2) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.445 seconds 
+[ Info: time: 65 days, iter: 4680, max|uo|: (1.5e+00, 1.3e+00, 6.7e-03) m s⁻¹, extrema(To): (-1.8, 40.7) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 46.440 seconds 
+[ Info: time: 70 days, iter: 5040, max|uo|: (1.5e+00, 1.4e+00, 6.4e-03) m s⁻¹, extrema(To): (-1.9, 40.1) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 55.218 seconds 
+[ Info: time: 75 days, iter: 5400, max|uo|: (2.1e+00, 1.5e+00, 5.9e-03) m s⁻¹, extrema(To): (-1.9, 39.8) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 44.412 seconds 
+[ Info: time: 80 days, iter: 5760, max|uo|: (1.8e+00, 1.1e+00, 5.7e-03) m s⁻¹, extrema(To): (-1.9, 39.4) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.475 seconds 
+[ Info: time: 85 days, iter: 6120, max|uo|: (1.5e+00, 1.4e+00, 5.7e-03) m s⁻¹, extrema(To): (-1.9, 40.5) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 42.551 seconds 
+[ Info: time: 90 days, iter: 6480, max|uo|: (2.2e+00, 1.1e+00, 5.7e-03) m s⁻¹, extrema(To): (-1.9, 41.4) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 50.981 seconds 
+[ Info: time: 95 days, iter: 6840, max|uo|: (1.5e+00, 1.2e+00, 5.4e-03) m s⁻¹, extrema(To): (-2.0, 44.1) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.00 m² s⁻², wall time: 43.331 seconds 
+[ Info: time: 100 days, iter: 7200, max|uo|: (1.6e+00, 1.9e+00, 5.2e-03) m s⁻¹, extrema(To): (-2.0, 47.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.00 m² s⁻², wall time: 56.565 seconds 
+[ Info: time: 105 days, iter: 7560, max|uo|: (1.6e+00, 1.6e+00, 5.2e-03) m s⁻¹, extrema(To): (-2.0, 44.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.772 seconds 
+[ Info: time: 110 days, iter: 7920, max|uo|: (1.8e+00, 1.4e+00, 5.0e-03) m s⁻¹, extrema(To): (-2.0, 44.1) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 55.392 seconds 
+[ Info: time: 115 days, iter: 8280, max|uo|: (1.8e+00, 1.2e+00, 5.0e-03) m s⁻¹, extrema(To): (-1.9, 40.2) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 46.576 seconds 
+[ Info: time: 120 days, iter: 8640, max|uo|: (1.8e+00, 1.6e+00, 4.6e-03) m s⁻¹, extrema(To): (-2.0, 40.6) ᵒC, mean(To(z=0)): 16.0 ᵒC, max(e): 0.00 m² s⁻², wall time: 56.121 seconds 
+[ Info: time: 125 days, iter: 9000, max|uo|: (1.8e+00, 1.1e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.0, 41.4) ᵒC, mean(To(z=0)): 16.0 ᵒC, max(e): 0.01 m² s⁻², wall time: 45.290 seconds 
+[ Info: time: 130 days, iter: 9360, max|uo|: (2.0e+00, 1.3e+00, 4.1e-03) m s⁻¹, extrema(To): (-2.1, 40.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 3.19 m² s⁻², wall time: 54.861 seconds 
+[ Info: time: 135 days, iter: 9720, max|uo|: (1.9e+00, 1.6e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.1, 41.1) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.675 seconds 
+[ Info: time: 140 days, iter: 10080, max|uo|: (1.9e+00, 1.4e+00, 4.1e-03) m s⁻¹, extrema(To): (-2.1, 42.0) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.378 seconds 
+[ Info: time: 145 days, iter: 10440, max|uo|: (1.8e+00, 1.4e+00, 3.9e-03) m s⁻¹, extrema(To): (-2.2, 40.5) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.277 seconds 
+[ Info: time: 150 days, iter: 10800, max|uo|: (1.7e+00, 1.3e+00, 3.7e-03) m s⁻¹, extrema(To): (-2.2, 39.4) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.211 seconds 
+[ Info: time: 155 days, iter: 11160, max|uo|: (1.9e+00, 1.3e+00, 3.6e-03) m s⁻¹, extrema(To): (-2.2, 38.4) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.801 seconds 
+[ Info: time: 160 days, iter: 11520, max|uo|: (2.1e+00, 1.4e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.3, 41.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 52.781 seconds 
+[ Info: time: 165 days, iter: 11880, max|uo|: (1.9e+00, 1.4e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.3, 38.6) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.00 m² s⁻², wall time: 46.126 seconds 
+[ Info: time: 170 days, iter: 12240, max|uo|: (1.8e+00, 1.4e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.4, 38.8) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 53.113 seconds 
+[ Info: time: 175 days, iter: 12600, max|uo|: (1.7e+00, 1.4e+00, 3.4e-03) m s⁻¹, extrema(To): (-2.4, 38.4) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.04 m² s⁻², wall time: 42.795 seconds 
+[ Info: time: 180 days, iter: 12960, max|uo|: (1.8e+00, 1.4e+00, 3.3e-03) m s⁻¹, extrema(To): (-2.5, 35.5) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.00 m² s⁻², wall time: 52.462 seconds 
+[ Info: time: 185 days, iter: 13320, max|uo|: (1.8e+00, 1.4e+00, 3.1e-03) m s⁻¹, extrema(To): (-2.5, 37.9) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 42.728 seconds 
+[ Info: time: 190 days, iter: 13680, max|uo|: (1.8e+00, 1.4e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.6, 37.5) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.017 seconds 
+[ Info: time: 195 days, iter: 14040, max|uo|: (1.8e+00, 1.3e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.6, 38.0) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 43.747 seconds 
+[ Info: time: 200 days, iter: 14400, max|uo|: (1.8e+00, 2.4e+00, 2.5e-03) m s⁻¹, extrema(To): (-2.6, 38.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 57.828 seconds 
+[ Info: time: 205 days, iter: 14760, max|uo|: (1.7e+00, 1.2e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.6, 39.7) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 45.040 seconds 
+[ Info: time: 210 days, iter: 15120, max|uo|: (1.7e+00, 1.6e+00, 2.3e-03) m s⁻¹, extrema(To): (-2.7, 39.5) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 53.239 seconds 
+[ Info: time: 215 days, iter: 15480, max|uo|: (1.8e+00, 1.4e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.4, 39.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 43.828 seconds 
+[ Info: time: 220 days, iter: 15840, max|uo|: (1.7e+00, 2.1e+00, 4.1e-03) m s⁻¹, extrema(To): (-2.8, 40.6) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.09 m² s⁻², wall time: 53.807 seconds 
+[ Info: time: 225 days, iter: 16200, max|uo|: (1.7e+00, 1.6e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.8, 40.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.196 seconds 
+[ Info: time: 230 days, iter: 16560, max|uo|: (1.7e+00, 1.8e+00, 2.3e-03) m s⁻¹, extrema(To): (-2.9, 40.4) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 56.130 seconds 
+[ Info: time: 235 days, iter: 16920, max|uo|: (1.8e+00, 1.7e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.9, 40.8) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.02 m² s⁻², wall time: 48.084 seconds 
+[ Info: time: 240 days, iter: 17280, max|uo|: (1.7e+00, 1.6e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.9, 38.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.078 minutes 
+[ Info: time: 245 days, iter: 17640, max|uo|: (1.7e+00, 1.7e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.9, 39.8) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.240 seconds 
+[ Info: time: 250 days, iter: 18000, max|uo|: (1.7e+00, 1.7e+00, 2.6e-03) m s⁻¹, extrema(To): (-3.1, 39.0) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 58.276 seconds 
+[ Info: time: 255 days, iter: 18360, max|uo|: (1.7e+00, 1.2e+00, 2.8e-03) m s⁻¹, extrema(To): (-2.9, 38.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 46.233 seconds 
+[ Info: time: 260 days, iter: 18720, max|uo|: (2.0e+00, 1.5e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.9, 37.2) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 58.900 seconds 
+[ Info: time: 265 days, iter: 19080, max|uo|: (1.8e+00, 1.3e+00, 2.5e-03) m s⁻¹, extrema(To): (-3.1, 38.9) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.062 minutes 
+[ Info: time: 270 days, iter: 19440, max|uo|: (1.8e+00, 1.3e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.6, 38.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.03 m² s⁻², wall time: 55.347 seconds 
+[ Info: time: 275 days, iter: 19800, max|uo|: (1.9e+00, 1.1e+00, 2.4e-03) m s⁻¹, extrema(To): (-3.1, 40.4) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.661 seconds 
+[ Info: time: 280 days, iter: 20160, max|uo|: (1.8e+00, 1.3e+00, 2.3e-03) m s⁻¹, extrema(To): (-2.6, 40.9) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.134 minutes 
+[ Info: time: 285 days, iter: 20520, max|uo|: (1.8e+00, 1.4e+00, 2.3e-03) m s⁻¹, extrema(To): (-2.3, 41.6) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.177 seconds 
+[ Info: time: 290 days, iter: 20880, max|uo|: (1.8e+00, 1.4e+00, 2.9e-03) m s⁻¹, extrema(To): (-3.1, 43.5) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 55.000 seconds 
+[ Info: time: 295 days, iter: 21240, max|uo|: (1.8e+00, 1.6e+00, 2.4e-03) m s⁻¹, extrema(To): (-3.0, 44.2) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.137 seconds 
+[ Info: time: 300 days, iter: 21600, max|uo|: (1.9e+00, 1.6e+00, 2.2e-03) m s⁻¹, extrema(To): (-2.5, 44.4) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 56.939 seconds 
+[ Info: time: 305 days, iter: 21960, max|uo|: (1.8e+00, 2.7e+00, 2.2e-03) m s⁻¹, extrema(To): (-2.7, 46.7) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 52.123 seconds 
+[ Info: time: 310 days, iter: 22320, max|uo|: (1.8e+00, 1.8e+00, 2.1e-03) m s⁻¹, extrema(To): (-2.7, 44.6) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.950 seconds 
+[ Info: time: 315 days, iter: 22680, max|uo|: (2.2e+00, 2.7e+00, 3.1e-03) m s⁻¹, extrema(To): (-2.2, 45.7) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.058 seconds 
+[ Info: time: 320 days, iter: 23040, max|uo|: (2.0e+00, 1.6e+00, 2.5e-03) m s⁻¹, extrema(To): (-2.0, 45.9) ᵒC, mean(To(z=0)): 15.4 ᵒC, max(e): 0.02 m² s⁻², wall time: 48.496 seconds 
+[ Info: time: 325 days, iter: 23400, max|uo|: (1.8e+00, 1.5e+00, 2.7e-03) m s⁻¹, extrema(To): (-1.8, 46.1) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.811 seconds 
+[ Info: time: 330 days, iter: 23760, max|uo|: (1.9e+00, 2.2e+00, 2.4e-03) m s⁻¹, extrema(To): (-1.9, 46.0) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.480 seconds 
+[ Info: time: 335 days, iter: 24120, max|uo|: (2.9e+00, 2.0e+00, 2.2e-03) m s⁻¹, extrema(To): (-1.7, 45.7) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.022 seconds 
+[ Info: time: 340 days, iter: 24480, max|uo|: (1.9e+00, 2.5e+00, 2.1e-03) m s⁻¹, extrema(To): (-1.9, 45.6) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 58.060 seconds 
+[ Info: time: 345 days, iter: 24840, max|uo|: (2.0e+00, 1.5e+00, 2.0e-03) m s⁻¹, extrema(To): (-2.0, 45.2) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.316 seconds 
+[ Info: time: 350 days, iter: 25200, max|uo|: (2.1e+00, 1.4e+00, 2.1e-03) m s⁻¹, extrema(To): (-1.9, 45.0) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.00 m² s⁻², wall time: 56.568 seconds 
+[ Info: time: 355 days, iter: 25560, max|uo|: (2.3e+00, 1.7e+00, 1.9e-03) m s⁻¹, extrema(To): (-1.9, 44.6) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.02 m² s⁻², wall time: 47.910 seconds 
+[ Info: time: 360 days, iter: 25920, max|uo|: (2.2e+00, 2.4e+00, 2.0e-03) m s⁻¹, extrema(To): (-2.0, 44.2) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 58.268 seconds 
+[ Info: Simulation is stopping after running for 1.300 hours.
+[ Info: Simulation time 365 days equals or exceeds stop time 365 days.
+[ Info: time: 365 days, iter: 26280, max|uo|: (2.0e+00, 1.7e+00, 2.1e-03) m s⁻¹, extrema(To): (-2.0, 43.2) ᵒC, mean(To(z=0)): 16.0 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.364 seconds 
+Precompiling packages...
+  23909.3 ms  ✓ IndirectArrays
+  23572.8 ms  ✓ Contour
+  23341.2 ms  ✓ TriplotBase
+  23214.7 ms  ✓ IntegerMathUtils
+  21350.2 ms  ✓ IterTools
+  19721.8 ms  ✓ Grisu
+  24762.2 ms  ✓ RangeArrays
+  24621.3 ms  ✓ BaseDirs
+  24283.8 ms  ✓ PolygonOps
+  23710.6 ms  ✓ Format
+  23689.5 ms  ✓ FillArrays
+  19581.0 ms  ✓ Observables
+  19414.2 ms  ✓ EnumX
+  18951.7 ms  ✓ StableRNGs
+  18564.4 ms  ✓ IntervalSets
+  18566.3 ms  ✓ RoundingEmulator
+   2341.0 ms  ✓ PtrArrays
+   2354.3 ms  ✓ PCRE2_jll
+   3169.0 ms  ✓ Showoff
+   4576.3 ms  ✓ SignedDistanceFields
+   4808.3 ms  ✓ Inflate
+   4784.1 ms  ✓ Missings
+   4980.1 ms  ✓ LazyModules
+   4894.0 ms  ✓ CRC32c
+   5137.2 ms  ✓ Ratios
+   5273.1 ms  ✓ Primes
+   6138.1 ms  ✓ GettextRuntime_jll
+   5537.9 ms  ✓ AdaptivePredicates
+   6389.5 ms  ✓ FreeType2_jll
+   5486.7 ms  ✓ SuiteSparse
+   1118.9 ms  ✓ CoreMath_jll
+   2876.9 ms  ✓ Animations
+   4091.6 ms  ✓ Graphics
+   1118.0 ms  ✓ Rmath_jll
+   1369.8 ms  ✓ Graphite2_jll
+   1407.3 ms  ✓ Libmount_jll
+   1080.8 ms  ✓ libpng_jll
+   1495.9 ms  ✓ LLVMOpenMP_jll
+   1193.3 ms  ✓ libfdk_aac_jll
+   5395.9 ms  ✓ SimpleTraits
+   2143.8 ms  ✓ Imath_jll
+   7897.8 ms  ✓ QOI
+   2572.3 ms  ✓ FFTA
+   3722.0 ms  ✓ ChainRulesCore
+   2473.6 ms  ✓ Giflib_jll
+   3763.0 ms  ✓ UnicodeFun
+   2703.0 ms  ✓ libdrm_jll
+   2351.2 ms  ✓ LAME_jll
+   2273.1 ms  ✓ LERC_jll
+   8894.6 ms  ✓ ImageBase
+   2274.5 ms  ✓ Rmath
+   2214.0 ms  ✓ JpegTurbo_jll
+   2249.4 ms  ✓ CRlibm_jll
+   2176.3 ms  ✓ Pixman_jll
+   3073.2 ms  ✓ Ogg_jll
+   2089.9 ms  ✓ x265_jll
+   1901.1 ms  ✓ x264_jll
+   1194.8 ms  ✓ libaom_jll
+   1176.8 ms  ✓ Expat_jll
+   1141.7 ms  ✓ AbstractFFTs → AbstractFFTsChainRulesCoreExt
+   1304.0 ms  ✓ Opus_jll
+   1410.3 ms  ✓ LogExpFunctions → LogExpFunctionsChainRulesCoreExt
+   1409.1 ms  ✓ Xorg_xtrans_jll
+    599.3 ms  ✓ FillArrays → FillArraysStatisticsExt
+   1502.1 ms  ✓ Libffi_jll
+   2418.6 ms  ✓ ChainRulesCore → ChainRulesCoreSparseArraysExt
+   1493.2 ms  ✓ ProgressMeter
+   2292.1 ms  ✓ isoband_jll
+   1507.8 ms  ✓ FillArrays → FillArraysStaticArraysExt
+   2453.3 ms  ✓ StaticArrays → StaticArraysChainRulesCoreExt
+   2413.3 ms  ✓ SpecialFunctions → SpecialFunctionsChainRulesCoreExt
+    958.7 ms  ✓ IntervalSets → IntervalSetsRandomExt
+   1523.4 ms  ✓ WoodburyMatrices
+   1543.1 ms  ✓ FillArrays → FillArraysSparseArraysExt
+   2382.5 ms  ✓ FilePathsBase
+   1539.9 ms  ✓ IntervalSets → IntervalSetsStatisticsExt
+   2176.8 ms  ✓ ComputePipeline
+   1883.5 ms  ✓ QuadGK
+   2154.5 ms  ✓ SortingAlgorithms
+   2182.5 ms  ✓ StructUtils
+   1355.8 ms  ✓ ConstructionBase → ConstructionBaseIntervalSetsExt
+    712.9 ms  ✓ Ratios → RatiosFixedPointNumbersExt
+   1374.7 ms  ✓ RelocatableFolders
+   1317.4 ms  ✓ Xorg_libXau_jll
+   2571.3 ms  ✓ AxisAlgorithms
+   2201.3 ms  ✓ FreeType
+   1846.1 ms  ✓ FilePathsBase → FilePathsBaseMmapExt
+   1696.1 ms  ✓ StructUtils → StructUtilsStaticArraysCoreExt
+   2291.1 ms  ✓ FilePaths
+   2305.7 ms  ✓ Xorg_libXdmcp_jll
+   2059.0 ms  ✓ StructUtils → StructUtilsTablesExt
+   2151.1 ms  ✓ Libuuid_jll
+   2786.7 ms  ✓ AxisArrays
+   3364.2 ms  ✓ HypergeometricFunctions
+   2644.7 ms  ✓ EarCut_jll
+   2883.5 ms  ✓ PDMats
+   2669.5 ms  ✓ CRlibm
+   7526.9 ms  ✓ ColorSchemes
+   2548.4 ms  ✓ libsixel_jll
+   2565.4 ms  ✓ libvorbis_jll
+   3674.8 ms  ✓ Libtiff_jll
+   2877.5 ms  ✓ AliasTables
+   3074.4 ms  ✓ Isoband
+   3514.0 ms  ✓ OpenEXR_jll
+   3586.5 ms  ✓ CoreMath
+   1632.5 ms  ✓ FriBidi_jll
+   3984.1 ms  ✓ Glib_jll
+   1283.6 ms  ✓ OpenBLASConsistentFPCSR_jll
+   4019.9 ms  ✓ Fontconfig_jll
+   1205.5 ms  ✓ FillArrays → FillArraysPDMatsExt
+   4538.4 ms  ✓ Xorg_libxcb_jll
+   6829.7 ms  ✓ Parsers
+   4407.4 ms  ✓ StatsFuns
+  12844.4 ms  ✓ PNGFiles
+   6656.5 ms  ✓ StatsBase
+   9396.6 ms  ✓ Interpolations
+   6123.4 ms  ✓ Xorg_libX11_jll
+   6048.2 ms  ✓ JSON
+   6957.3 ms  ✓ IntervalArithmetic
+   8501.3 ms  ✓ SIMD
+   4510.6 ms  ✓ StatsFuns → StatsFunsInverseFunctionsExt
+   8728.5 ms  ✓ GeometryBasics
+   1795.6 ms  ✓ StatsFuns → StatsFunsChainRulesCoreExt
+   8480.3 ms  ✓ PlotUtils
+  11979.4 ms  ✓ ImageAxes
+   1755.1 ms  ✓ PDMats → StatsBaseExt
+   1356.0 ms  ✓ IntervalArithmetic → IntervalArithmeticIntervalSetsExt
+   1963.3 ms  ✓ ColorBrewer
+   2245.2 ms  ✓ Xorg_libXrender_jll
+   1537.0 ms  ✓ IntervalArithmetic → IntervalArithmeticIrrationalConstantsExt
+   1977.8 ms  ✓ IntervalArithmetic → IntervalArithmeticSparseArraysExt
+   2279.2 ms  ✓ Xorg_libXext_jll
+   2208.0 ms  ✓ Xorg_libXfixes_jll
+   9135.8 ms  ✓ OpenEXR
+  13204.5 ms  ✓ JpegTurbo
+   1881.6 ms  ✓ IntervalArithmetic → IntervalArithmeticLinearAlgebraExt
+   3724.2 ms  ✓ Interpolations → InterpolationsUnitfulExt
+   1538.2 ms  ✓ Libglvnd_jll
+   1847.2 ms  ✓ libva_jll
+  12292.4 ms  ✓ Sixel
+   3078.8 ms  ✓ ImageMetadata
+   4463.1 ms  ✓ Packing
+   4318.6 ms  ✓ Cairo_jll
+   4863.9 ms  ✓ ShaderAbstractions
+   5517.6 ms  ✓ FreeTypeAbstraction
+   3824.2 ms  ✓ libwebp_jll
+   5133.4 ms  ✓ ExactPredicates
+   7504.2 ms  ✓ Automa
+   3500.0 ms  ✓ HarfBuzz_jll
+   8949.0 ms  ✓ GridLayoutBase
+   3364.3 ms  ✓ Pango_jll
+   8459.7 ms  ✓ Netpbm
+  11777.9 ms  ✓ Distributions
+   3845.4 ms  ✓ libass_jll
+   9078.3 ms  ✓ WebP
+   4260.9 ms  ✓ Distributions → DistributionsChainRulesCoreExt
+   4809.3 ms  ✓ Cairo
+  11474.6 ms  ✓ DelaunayTriangulation
+  13931.2 ms  ✓ MathTeXEngine
+   8748.3 ms  ✓ FFMPEG_jll
+  22614.1 ms  ✓ TiffImages
+   8564.4 ms  ✓ KernelDensity
+   4177.8 ms  ✓ ImageIO
+ 126711.7 ms  ✓ Makie
+  81861.6 ms  ✓ CairoMakie
+  165 dependencies successfully precompiled in 322 seconds. 111 already precompiled.
+Precompiling packages...
+   1742.4 ms  ✓ FilePathsBase → FilePathsBaseTestExt
+  1 dependency successfully precompiled in 6 seconds. 16 already precompiled.
+Precompiling packages...
+    798.8 ms  ✓ FilePaths → FilePathsURIsExt
+  1 dependency successfully precompiled in 2 seconds. 12 already precompiled.
+Precompiling packages...
+   2278.2 ms  ✓ FilePaths → FilePathsGlobExt
+  1 dependency successfully precompiled in 4 seconds. 12 already precompiled.
+Precompiling packages...
+   2521.8 ms  ✓ GeometryBasics → GeometryBasicsGeoInterfaceExt
+  1 dependency successfully precompiled in 8 seconds. 38 already precompiled.
+Precompiling packages...
+   3348.7 ms  ✓ Distributions → DistributionsTestExt
+  1 dependency successfully precompiled in 11 seconds. 48 already precompiled.
+Precompiling packages...
+   1173.4 ms  ✓ Distances → DistancesChainRulesCoreExt
+  1 dependency successfully precompiled in 3 seconds. 11 already precompiled.
+Precompiling packages...
+   2409.1 ms  ✓ ArrayInterface → ArrayInterfaceChainRulesCoreExt
+  1 dependency successfully precompiled in 6 seconds. 11 already precompiled.
+Precompiling packages...
+  57624.7 ms  ✓ CUDA → ChainRulesCoreExt
+  1 dependency successfully precompiled in 91 seconds. 98 already precompiled.
+Precompiling packages...
+   4085.9 ms  ✓ LoopVectorization → ForwardDiffExt
+  1 dependency successfully precompiled in 22 seconds. 63 already precompiled.
+Precompiling packages...
+   3551.0 ms  ✓ Interpolations → InterpolationsForwardDiffExt
+  1 dependency successfully precompiled in 10 seconds. 47 already precompiled.
+Precompiling packages...
+   2676.1 ms  ✓ TaylorSeries → TaylorSeriesIAExt
+  1 dependency successfully precompiled in 7 seconds. 42 already precompiled.
+Precompiling packages...
+   4564.8 ms  ✓ IntervalArithmetic → IntervalArithmeticDiffRulesExt
+   5136.6 ms  ✓ IntervalArithmetic → IntervalArithmeticForwardDiffExt
+  2 dependencies successfully precompiled in 11 seconds. 50 already precompiled.
+Precompiling packages...
+  36068.8 ms  ✓ Oceananigans → OceananigansMakieExt
+  1 dependency successfully precompiled in 131 seconds. 317 already precompiled.
+Precompiling packages...
+  28021.3 ms  ✓ GeoInterface → GeoInterfaceMakieExt
+  29430.7 ms  ✓ MeshArrays → MeshArraysMakieExt
+  2 dependencies successfully precompiled in 90 seconds. 287 already precompiled.

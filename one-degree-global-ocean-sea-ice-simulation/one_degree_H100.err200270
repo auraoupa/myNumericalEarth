@@ -1,0 +1,386 @@
+Precompiling packages...
+   4932.1 ms  ✓ TensorCore
+   5140.1 ms  ✓ NetworkOptions
+   5145.1 ms  ✓ Glob
+   5356.8 ms  ✓ MuladdMacro
+   5181.4 ms  ✓ StatsAPI
+   5019.1 ms  ✓ Serialization
+   5209.9 ms  ✓ OffsetArrays
+   5609.9 ms  ✓ OpenSSL_jll
+   5174.1 ms  ✓ UnPack
+   5585.4 ms  ✓ ExpressionExplorer
+   5354.8 ms  ✓ GeoFormatTypes
+   5471.2 ms  ✓ IteratorInterfaceExtensions
+   5332.0 ms  ✓ OpenLibm_jll
+   5490.4 ms  ✓ ChunkCodecCore
+   5712.1 ms  ✓ UnsafeAtomics
+   5919.5 ms  ✓ AbstractFFTs
+   4168.4 ms  ✓ InverseFunctions
+   4192.0 ms  ✓ UUIDs
+   4509.0 ms  ✓ StackViews
+   4924.5 ms  ✓ LibSSH2_jll
+   1228.5 ms  ✓ DataValueInterfaces
+   5300.1 ms  ✓ Logging
+   5257.3 ms  ✓ Statistics
+   5327.8 ms  ✓ SeawaterPolynomials
+   5187.5 ms  ✓ CompilerSupportLibraries_jll
+   5178.5 ms  ✓ MozillaCACerts_jll
+   5371.2 ms  ✓ PaddedViews
+   5415.8 ms  ✓ CommonSolve
+   2751.5 ms  ✓ RealDot
+   6918.7 ms  ✓ ConcurrentUtilities
+   2628.2 ms  ✓ Reexport
+   7898.3 ms  ✓ ArgTools
+   8008.0 ms  ✓ Distributed
+   6038.1 ms  ✓ OrderedCollections
+   2441.1 ms  ✓ SIMDTypes
+   1733.6 ms  ✓ Mmap
+   1865.3 ms  ✓ Zlib_jll
+   1024.9 ms  ✓ HashArrayMappedTries
+   1951.8 ms  ✓ DocStringExtensions
+   1948.2 ms  ✓ AbstractTrees
+   2803.7 ms  ✓ LibGit2_jll
+    941.2 ms  ✓ LRUCache
+    960.2 ms  ✓ IfElse
+   1346.2 ms  ✓ TranscodingStreams
+   2313.2 ms  ✓ URIs
+   2951.5 ms  ✓ Distances
+   1260.4 ms  ✓ CommonWorldInvalidations
+   1275.1 ms  ✓ DataAPI
+   2255.3 ms  ✓ ConstructionBase
+   1469.5 ms  ✓ ChunkCodecLibZlib
+   1694.4 ms  ✓ ScopedValues
+   1620.6 ms  ✓ SuiteSparse_jll
+   1798.2 ms  ✓ SharedArrays
+   1733.9 ms  ✓ BitFlags
+   1589.8 ms  ✓ nghttp2_jll
+   4035.2 ms  ✓ IrrationalConstants
+   4342.4 ms  ✓ FixedPointNumbers
+   7168.9 ms  ✓ StyledStrings
+   3112.2 ms  ✓ DataStructures
+    740.2 ms  ✓ TableTraits
+   2511.1 ms  ✓ Crayons
+    794.2 ms  ✓ ConstructionBase → ConstructionBaseLinearAlgebraExt
+   1054.7 ms  ✓ ManualMemory
+   1041.9 ms  ✓ Unicode
+    862.1 ms  ✓ p7zip_jll
+    845.8 ms  ✓ SimpleBufferStream
+    771.7 ms  ✓ Quaternions
+   1313.7 ms  ✓ Atomix
+   1008.7 ms  ✓ Extents
+   1462.1 ms  ✓ Requires
+   3321.5 ms  ✓ MacroTools
+   1179.8 ms  ✓ Tar
+   1994.2 ms  ✓ NaNMath
+   1232.2 ms  ✓ LRUCache → SerializationExt
+   1405.7 ms  ✓ StaticArraysCore
+   1417.4 ms  ✓ Printf
+   1551.1 ms  ✓ CodecZlib
+   1593.6 ms  ✓ Base64
+   1483.8 ms  ✓ SciMLPublic
+   1742.0 ms  ✓ CompositionsBase
+   1729.3 ms  ✓ MappedArrays
+   1737.5 ms  ✓ Adapt
+   3031.8 ms  ✓ ColorTypes
+   1487.1 ms  ✓ LogExpFunctions
+   2881.8 ms  ✓ Tables
+   1489.1 ms  ✓ CommonSubexpressions
+   2520.7 ms  ✓ ThreadingUtilities
+   1221.3 ms  ✓ ReactantCore
+   1302.0 ms  ✓ ZipFile
+   2830.2 ms  ✓ JuliaSyntaxHighlighting
+   2993.2 ms  ✓ DiskArrays
+   1522.2 ms  ✓ DiffResults
+   2125.4 ms  ✓ LibCURL_jll
+   3248.7 ms  ✓ GeoInterface
+   1813.2 ms  ✓ LogExpFunctions → LogExpFunctionsInverseFunctionsExt
+   2514.3 ms  ✓ MosaicViews
+   2012.6 ms  ✓ OffsetArrays → OffsetArraysAdaptExt
+   6167.1 ms  ✓ SparseArrays
+   2765.0 ms  ✓ CompositionsBase → CompositionsBaseInverseFunctionsExt
+   2098.7 ms  ✓ GPUArraysCore
+   2684.0 ms  ✓ ColorTypes → StyledStringsExt
+   2224.2 ms  ✓ LibCURL
+   4326.0 ms  ✓ Dates
+   3709.1 ms  ✓ ArrayInterface
+   3944.5 ms  ✓ StructArrays
+   4640.9 ms  ✓ LibGit2
+   4377.7 ms  ✓ ColorVectorSpace
+   1816.4 ms  ✓ Adapt → AdaptSparseArraysExt
+   1969.9 ms  ✓ Distances → DistancesSparseArraysExt
+   2270.0 ms  ✓ Statistics → SparseArraysExt
+   1835.4 ms  ✓ TOML
+   1440.2 ms  ✓ ArrayInterface → ArrayInterfaceGPUArraysCoreExt
+   1773.3 ms  ✓ Scratch
+   1627.6 ms  ✓ ArrayInterface → ArrayInterfaceSparseArraysExt
+   5905.1 ms  ✓ Markdown
+   5986.3 ms  ✓ Colors
+   2786.9 ms  ✓ LoggingExtras
+   2778.0 ms  ✓ InverseFunctions → InverseFunctionsDatesExt
+   3906.3 ms  ✓ ArrayInterface → ArrayInterfaceStaticArraysCoreExt
+   5489.8 ms  ✓ CFTime
+   4620.2 ms  ✓ StructArrays → StructArraysSparseArraysExt
+   3782.6 ms  ✓ Preferences
+   5070.8 ms  ✓ StructArrays → StructArraysAdaptExt
+   4150.6 ms  ✓ StructArrays → StructArraysLinearAlgebraExt
+   6022.3 ms  ✓ Downloads
+   4128.3 ms  ✓ Compat
+   5883.2 ms  ✓ OpenSSL
+   1064.2 ms  ✓ Compat → CompatLinearAlgebraExt
+   2304.8 ms  ✓ CpuId
+   1590.2 ms  ✓ PrecompileTools
+   1810.8 ms  ✓ JLLWrappers
+   9425.1 ms  ✓ Krylov
+   2203.2 ms  ✓ MPIPreferences
+   4081.0 ms  ✓ Accessors
+   5006.1 ms  ✓ InteractiveUtils
+   1853.8 ms  ✓ dlfcn_win32_jll
+   1825.9 ms  ✓ Bzip2_jll
+   4342.4 ms  ✓ CommonDataModel
+   2442.9 ms  ✓ Xorg_libpciaccess_jll
+   2799.1 ms  ✓ s2n_tls_jll
+   3037.3 ms  ✓ aws_c_common_jll
+   6200.7 ms  ✓ TaylorSeries
+   3134.0 ms  ✓ libaec_jll
+   3195.1 ms  ✓ Lz4_jll
+   1916.0 ms  ✓ Accessors → StructArraysExt
+   1655.0 ms  ✓ FFTW_jll
+   1886.8 ms  ✓ MbedTLS_jll
+   2004.5 ms  ✓ Accessors → LinearAlgebraExt
+   2134.5 ms  ✓ XZ_jll
+   1514.3 ms  ✓ OpenSpecFun_jll
+   2589.5 ms  ✓ aws_checksums_jll
+   2864.2 ms  ✓ aws_c_cal_jll
+   2908.0 ms  ✓ Zstd_jll
+   2790.6 ms  ✓ aws_c_compression_jll
+   2157.7 ms  ✓ Libiconv_jll
+   6722.2 ms  ✓ Static
+   2361.0 ms  ✓ aws_c_sdkutils_jll
+  14941.2 ms  ✓ Unitful
+   2811.3 ms  ✓ MbedTLS
+   6640.7 ms  ✓ Test
+   5448.7 ms  ✓ BitTwiddlingConvenienceFunctions
+  12394.8 ms  ✓ StaticArrays
+   7980.7 ms  ✓ SpecialFunctions
+   8200.5 ms  ✓ CubedSphere
+   5990.7 ms  ✓ XML2_jll
+   6109.3 ms  ✓ ChunkCodecLibZstd
+   5700.2 ms  ✓ CPUSummary
+   6274.0 ms  ✓ Blosc_jll
+   6319.0 ms  ✓ aws_c_io_jll
+   6354.1 ms  ✓ libzip_jll
+   8574.3 ms  ✓ Roots
+   6300.0 ms  ✓ StaticArrayInterface
+    712.3 ms  ✓ CatViews
+  14042.1 ms  ✓ ImageCore
+   1733.8 ms  ✓ StaticArrays → StaticArraysStatisticsExt
+   1778.8 ms  ✓ ConstructionBase → ConstructionBaseStaticArraysExt
+   1578.4 ms  ✓ Adapt → AdaptStaticArraysExt
+   2064.3 ms  ✓ HostCPUFeatures
+   1970.6 ms  ✓ InverseFunctions → InverseFunctionsTestExt
+   2897.7 ms  ✓ DiffRules
+   4609.6 ms  ✓ PolyesterWeave
+   4810.6 ms  ✓ AbstractFFTs → AbstractFFTsTestExt
+   3984.9 ms  ✓ ColorVectorSpace → SpecialFunctionsExt
+   4120.6 ms  ✓ ExceptionUnwrapping
+   4372.7 ms  ✓ Accessors → TestExt
+   1773.2 ms  ✓ aws_c_http_jll
+   1252.8 ms  ✓ StaticArrayInterface → StaticArrayInterfaceOffsetArraysExt
+   8462.9 ms  ✓ Unitful → InverseFunctionsUnitfulExt
+   9211.0 ms  ✓ Accessors → UnitfulExt
+  16194.0 ms  ✓ Unitful → ConstructionBaseUnitfulExt
+  13171.3 ms  ✓ Unitful → NaNMathExt
+  10697.7 ms  ✓ Unitful → PrintfExt
+   4832.5 ms  ✓ CloseOpenIntervals
+  13168.0 ms  ✓ Rotations
+   8557.2 ms  ✓ ForwardDiff
+   7019.1 ms  ✓ LayoutPointers
+   5420.1 ms  ✓ TiledIteration
+   5653.4 ms  ✓ Hwloc_jll
+   6637.8 ms  ✓ aws_c_auth_jll
+  17617.4 ms  ✓ StructArrays → StructArraysStaticArraysExt
+  12886.5 ms  ✓ Accessors → StaticArraysExt
+  17146.9 ms  ✓ TaylorSeries → TaylorSeriesSAExt
+   7479.9 ms  ✓ Roots → RootsUnitfulExt
+  12486.9 ms  ✓ StaticArrayInterface → StaticArrayInterfaceStaticArraysExt
+   2425.4 ms  ✓ MPICH_jll
+   5341.7 ms  ✓ RootSolvers
+   5674.5 ms  ✓ ForwardDiff → ForwardDiffStaticArraysExt
+   5649.2 ms  ✓ Unitful → ForwardDiffExt
+   2180.0 ms  ✓ aws_c_s3_jll
+   6724.3 ms  ✓ Roots → RootsForwardDiffExt
+  19367.0 ms  ✓ KernelAbstractions
+  14345.1 ms  ✓ NearestNeighbors
+   8162.9 ms  ✓ Thermodynamics
+   6760.0 ms  ✓ KernelAbstractions → SparseArraysExt
+   6887.9 ms  ✓ StructArrays → StructArraysGPUArraysCoreExt
+   7459.6 ms  ✓ KernelAbstractions → LinearAlgebraExt
+  12937.5 ms  ✓ VectorizationBase
+  43893.0 ms  ✓ Pkg
+  18855.5 ms  ✓ HTTP
+   1290.6 ms  ✓ MicrosoftMPI_jll
+   2541.5 ms  ✓ LazyArtifacts
+   3473.8 ms  ✓ SLEEFPirates
+   3590.6 ms  ✓ PkgVersion
+   5460.2 ms  ✓ DataDeps
+   5455.5 ms  ✓ IntelOpenMP_jll
+   4997.9 ms  ✓ MPIABI_jll
+   5482.3 ms  ✓ MPItrampoline_jll
+   5153.0 ms  ✓ OpenMPI_jll
+   5705.6 ms  ✓ oneTBB_jll
+   8461.8 ms  ✓ FileIO
+   9545.3 ms  ✓ mpif_jll
+   9555.7 ms  ✓ MKL_jll
+  15695.0 ms  ✓ MeshArrays
+  18634.7 ms  ✓ LoopVectorization
+  14047.0 ms  ✓ FileIO → HTTPExt
+   5650.1 ms  ✓ HDF5_jll
+  15570.8 ms  ✓ MPI
+   7500.8 ms  ✓ FFTW
+   9000.3 ms  ✓ LoopVectorization → SpecialFunctionsExt
+  21996.0 ms  ✓ MeshArrays → MeshArraysDataDepsExt
+  19386.8 ms  ✓ ImageMorphology
+  32939.6 ms  ✓ JLD2
+  19660.1 ms  ✓ NetCDF_jll
+   5032.9 ms  ✓ TaylorSeries → TaylorSeriesJLD2Ext
+   5644.0 ms  ✓ JLD2 → UnPackExt
+   7198.1 ms  ✓ MeshArrays → MeshArraysJLD2Ext
+  13940.8 ms  ✓ NCDatasets
+  17178.9 ms  ✓ NCDatasets → NCDatasetsMPIExt
+  74467.3 ms  ✓ Oceananigans
+  20291.9 ms  ✓ Oceananigans → OceananigansNCDatasetsExt
+  21990.6 ms  ✓ ClimaSeaIce
+  51175.5 ms  ✓ NumericalEarth
+  252 dependencies successfully precompiled in 304 seconds
+Precompiling packages...
+  20739.1 ms  ✓ LaTeXStrings
+  20730.7 ms  ✓ ExprTools
+  20570.0 ms  ✓ CEnum
+  22242.9 ms  ✓ LLVMLoopInfo
+  19827.0 ms  ✓ CUDA_Runtime_Discovery
+  17087.0 ms  ✓ BFloat16s
+  20533.6 ms  ✓ RandomNumbers
+   2973.5 ms  ✓ JuliaNVTXCallbacks_jll
+   3919.3 ms  ✓ demumble_jll
+   4056.7 ms  ✓ NVTX_jll
+   4050.8 ms  ✓ LibTracyClient_jll
+   3168.8 ms  ✓ Random123
+   4944.7 ms  ✓ CUDA_Driver_jll
+   4913.0 ms  ✓ StringManipulation
+   2954.8 ms  ✓ NVTX
+   3029.2 ms  ✓ Tracy
+  80726.0 ms  ✓ REPL
+ 118499.9 ms  ✓ LLVMExtra_jll
+  51703.2 ms  ✓ PrettyTables
+  60287.0 ms  ✓ Pkg → REPLExt
+ 125523.8 ms  ✓ CUDA_Runtime_jll
+  23394.3 ms  ✓ LLVM
+   3528.8 ms  ✓ LLVM → BFloat16sExt
+   3685.9 ms  ✓ GPUToolbox
+   4198.8 ms  ✓ UnsafeAtomics → UnsafeAtomicsLLVM
+  11257.4 ms  ✓ GPUArrays
+  33626.6 ms  ✓ CUDA_Compiler_jll
+  34778.2 ms  ✓ GPUCompiler
+  53126.4 ms  ✓ CUDA
+  20231.6 ms  ✓ Atomix → AtomixCUDAExt
+  30 dependencies successfully precompiled in 281 seconds. 62 already precompiled.
+Precompiling packages...
+   7432.9 ms  ✓ GPUArrays → JLD2Ext
+  1 dependency successfully precompiled in 22 seconds. 66 already precompiled.
+Precompiling packages...
+   1271.7 ms  ✓ NVTX → NVTXColorsExt
+  1 dependency successfully precompiled in 7 seconds. 37 already precompiled.
+Precompiling packages...
+  52164.9 ms  ✓ MPI → CUDAExt
+  1 dependency successfully precompiled in 75 seconds. 106 already precompiled.
+Precompiling packages...
+  45722.5 ms  ✓ ArrayInterface → ArrayInterfaceCUDAExt
+  1 dependency successfully precompiled in 68 seconds. 96 already precompiled.
+Precompiling packages...
+  17682.7 ms  ✓ CUDA → SpecialFunctionsExt
+  1 dependency successfully precompiled in 66 seconds. 135 already precompiled.
+Precompiling packages...
+  64369.4 ms  ✓ Oceananigans → OceananigansCUDAExt
+  1 dependency successfully precompiled in 121 seconds. 148 already precompiled.
+[ Info: Loading cached bathymetry from /bettik/alberta/julia_myNEGPU/scratchspaces/904d977b-046a-4731-8b86-9235c0d1ef02/bathymetry_cache/bathymetry_360x180_0.0_360.0_-85.22387615721567_90.0_b841e80e.jld2
+[ Info: We've built an ocean simulation with model:
+[ Info: Initializing simulation...
+[ Info: time: 0 seconds, iter: 0, max|uo|: (0.0e+00, 0.0e+00, 0.0e+00) m s⁻¹, extrema(To): (-1.9, 31.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.00 m² s⁻², wall time: 3.277 minutes 
+[ Info:     ... simulation initialization complete (55.570 seconds)
+[ Info: Executing initial time step...
+[ Info:     ... initial time step complete (21.685 minutes).
+[ Info: time: 5 days, iter: 360, max|uo|: (1.6e+00, 1.7e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 33.6) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.02 m² s⁻², wall time: 22.563 minutes 
+[ Info: time: 10 days, iter: 720, max|uo|: (1.6e+00, 2.0e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 36.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 58.076 seconds 
+[ Info: time: 15 days, iter: 1080, max|uo|: (1.7e+00, 2.0e+00, 1.4e-02) m s⁻¹, extrema(To): (-1.9, 38.4) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.58 m² s⁻², wall time: 47.608 seconds 
+[ Info: time: 20 days, iter: 1440, max|uo|: (1.6e+00, 1.9e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.8, 39.0) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.203 minutes 
+[ Info: time: 25 days, iter: 1800, max|uo|: (1.5e+00, 1.9e+00, 1.1e-02) m s⁻¹, extrema(To): (-1.9, 41.5) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 57.357 seconds 
+[ Info: time: 30 days, iter: 2160, max|uo|: (1.5e+00, 2.0e+00, 9.9e-03) m s⁻¹, extrema(To): (-1.9, 39.8) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.194 minutes 
+[ Info: time: 35 days, iter: 2520, max|uo|: (1.5e+00, 2.1e+00, 8.7e-03) m s⁻¹, extrema(To): (-1.9, 45.1) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 56.668 seconds 
+[ Info: time: 40 days, iter: 2880, max|uo|: (1.5e+00, 2.1e+00, 8.1e-03) m s⁻¹, extrema(To): (-1.9, 41.8) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 59.598 seconds 
+[ Info: time: 45 days, iter: 3240, max|uo|: (1.4e+00, 1.8e+00, 7.9e-03) m s⁻¹, extrema(To): (-1.9, 41.7) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 50.106 seconds 
+[ Info: time: 50 days, iter: 3600, max|uo|: (1.7e+00, 2.1e+00, 7.4e-03) m s⁻¹, extrema(To): (-2.0, 41.6) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.037 minutes 
+[ Info: time: 55 days, iter: 3960, max|uo|: (1.6e+00, 2.6e+00, 7.0e-03) m s⁻¹, extrema(To): (-1.9, 40.3) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 50.019 seconds 
+[ Info: time: 60 days, iter: 4320, max|uo|: (1.3e+00, 1.5e+00, 6.7e-03) m s⁻¹, extrema(To): (-1.9, 40.2) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.102 minutes 
+[ Info: time: 65 days, iter: 4680, max|uo|: (1.5e+00, 1.3e+00, 6.7e-03) m s⁻¹, extrema(To): (-1.8, 40.7) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 52.527 seconds 
+[ Info: time: 70 days, iter: 5040, max|uo|: (1.5e+00, 1.5e+00, 6.4e-03) m s⁻¹, extrema(To): (-1.9, 40.1) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.086 minutes 
+[ Info: time: 75 days, iter: 5400, max|uo|: (2.2e+00, 1.5e+00, 5.9e-03) m s⁻¹, extrema(To): (-1.9, 39.9) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.577 seconds 
+[ Info: time: 80 days, iter: 5760, max|uo|: (1.8e+00, 1.1e+00, 5.7e-03) m s⁻¹, extrema(To): (-1.9, 39.4) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.048 minutes 
+[ Info: time: 85 days, iter: 6120, max|uo|: (1.5e+00, 1.4e+00, 5.8e-03) m s⁻¹, extrema(To): (-1.9, 40.5) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.147 seconds 
+[ Info: time: 90 days, iter: 6480, max|uo|: (2.2e+00, 1.1e+00, 5.7e-03) m s⁻¹, extrema(To): (-1.9, 41.4) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.067 minutes 
+[ Info: time: 95 days, iter: 6840, max|uo|: (1.5e+00, 1.2e+00, 5.4e-03) m s⁻¹, extrema(To): (-2.0, 44.1) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.00 m² s⁻², wall time: 54.856 seconds 
+[ Info: time: 100 days, iter: 7200, max|uo|: (1.6e+00, 1.9e+00, 5.2e-03) m s⁻¹, extrema(To): (-2.0, 47.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.060 minutes 
+[ Info: time: 105 days, iter: 7560, max|uo|: (1.6e+00, 1.6e+00, 5.2e-03) m s⁻¹, extrema(To): (-2.0, 44.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 50.640 seconds 
+[ Info: time: 110 days, iter: 7920, max|uo|: (1.8e+00, 1.4e+00, 5.0e-03) m s⁻¹, extrema(To): (-2.0, 44.1) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.083 minutes 
+[ Info: time: 115 days, iter: 8280, max|uo|: (1.8e+00, 1.2e+00, 5.0e-03) m s⁻¹, extrema(To): (-1.9, 40.2) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 52.843 seconds 
+[ Info: time: 120 days, iter: 8640, max|uo|: (1.8e+00, 1.6e+00, 4.6e-03) m s⁻¹, extrema(To): (-2.0, 40.6) ᵒC, mean(To(z=0)): 16.0 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.221 minutes 
+[ Info: time: 125 days, iter: 9000, max|uo|: (1.8e+00, 1.1e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.0, 41.5) ᵒC, mean(To(z=0)): 16.0 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.392 seconds 
+[ Info: time: 130 days, iter: 9360, max|uo|: (2.0e+00, 1.3e+00, 4.0e-03) m s⁻¹, extrema(To): (-2.1, 40.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.066 minutes 
+[ Info: time: 135 days, iter: 9720, max|uo|: (1.9e+00, 1.6e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.1, 41.0) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.195 seconds 
+[ Info: time: 140 days, iter: 10080, max|uo|: (1.9e+00, 1.4e+00, 4.1e-03) m s⁻¹, extrema(To): (-2.1, 42.0) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.068 minutes 
+[ Info: time: 145 days, iter: 10440, max|uo|: (1.8e+00, 1.4e+00, 3.9e-03) m s⁻¹, extrema(To): (-2.2, 40.6) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 56.179 seconds 
+[ Info: time: 150 days, iter: 10800, max|uo|: (1.7e+00, 1.3e+00, 3.8e-03) m s⁻¹, extrema(To): (-2.2, 39.4) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.049 minutes 
+[ Info: time: 155 days, iter: 11160, max|uo|: (1.9e+00, 1.3e+00, 3.6e-03) m s⁻¹, extrema(To): (-2.2, 38.4) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 51.972 seconds 
+[ Info: time: 160 days, iter: 11520, max|uo|: (2.1e+00, 1.4e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.3, 41.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 59.468 seconds 
+[ Info: time: 165 days, iter: 11880, max|uo|: (1.9e+00, 1.4e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.3, 38.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.00 m² s⁻², wall time: 53.283 seconds 
+[ Info: time: 170 days, iter: 12240, max|uo|: (1.8e+00, 1.4e+00, 3.6e-03) m s⁻¹, extrema(To): (-2.4, 39.0) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.425 minutes 
+[ Info: time: 175 days, iter: 12600, max|uo|: (1.8e+00, 1.4e+00, 3.6e-03) m s⁻¹, extrema(To): (-2.4, 38.1) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.13 m² s⁻², wall time: 55.141 seconds 
+[ Info: time: 180 days, iter: 12960, max|uo|: (1.7e+00, 1.4e+00, 3.4e-03) m s⁻¹, extrema(To): (-2.5, 35.5) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.00 m² s⁻², wall time: 54.424 seconds 
+[ Info: time: 185 days, iter: 13320, max|uo|: (1.8e+00, 1.5e+00, 3.2e-03) m s⁻¹, extrema(To): (-2.5, 37.9) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.872 seconds 
+[ Info: time: 190 days, iter: 13680, max|uo|: (1.8e+00, 1.4e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.6, 37.3) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.757 seconds 
+[ Info: time: 195 days, iter: 14040, max|uo|: (1.8e+00, 1.4e+00, 3.1e-03) m s⁻¹, extrema(To): (-2.6, 37.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.790 seconds 
+[ Info: time: 200 days, iter: 14400, max|uo|: (1.8e+00, 2.4e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.6, 38.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.490 seconds 
+[ Info: time: 205 days, iter: 14760, max|uo|: (1.7e+00, 1.2e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.6, 39.6) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.792 seconds 
+[ Info: time: 210 days, iter: 15120, max|uo|: (1.7e+00, 1.6e+00, 2.5e-03) m s⁻¹, extrema(To): (-2.7, 39.5) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 53.747 seconds 
+[ Info: time: 215 days, iter: 15480, max|uo|: (1.8e+00, 1.3e+00, 2.5e-03) m s⁻¹, extrema(To): (-2.4, 39.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.946 seconds 
+[ Info: time: 220 days, iter: 15840, max|uo|: (1.7e+00, 2.1e+00, 4.1e-03) m s⁻¹, extrema(To): (-2.8, 40.6) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 55.060 seconds 
+[ Info: time: 225 days, iter: 16200, max|uo|: (1.7e+00, 1.6e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.8, 40.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.685 seconds 
+[ Info: time: 230 days, iter: 16560, max|uo|: (1.7e+00, 1.8e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.9, 40.4) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.900 seconds 
+[ Info: time: 235 days, iter: 16920, max|uo|: (1.7e+00, 1.7e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.9, 40.8) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.990 seconds 
+[ Info: time: 240 days, iter: 17280, max|uo|: (1.7e+00, 1.6e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.9, 38.9) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 53.920 seconds 
+[ Info: time: 245 days, iter: 17640, max|uo|: (1.7e+00, 1.7e+00, 2.8e-03) m s⁻¹, extrema(To): (-2.9, 39.7) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.263 seconds 
+[ Info: time: 250 days, iter: 18000, max|uo|: (1.7e+00, 1.7e+00, 2.7e-03) m s⁻¹, extrema(To): (-3.1, 39.3) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.09 m² s⁻², wall time: 54.122 seconds 
+[ Info: time: 255 days, iter: 18360, max|uo|: (1.7e+00, 1.2e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.9, 38.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.182 seconds 
+[ Info: time: 260 days, iter: 18720, max|uo|: (2.0e+00, 1.4e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.9, 37.2) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.153 minutes 
+[ Info: time: 265 days, iter: 19080, max|uo|: (1.8e+00, 1.3e+00, 2.5e-03) m s⁻¹, extrema(To): (-3.1, 39.2) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.765 seconds 
+[ Info: time: 270 days, iter: 19440, max|uo|: (1.8e+00, 1.3e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.6, 36.7) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 56.110 seconds 
+[ Info: time: 275 days, iter: 19800, max|uo|: (1.9e+00, 1.1e+00, 2.4e-03) m s⁻¹, extrema(To): (-3.1, 40.8) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.08 m² s⁻², wall time: 47.702 seconds 
+[ Info: time: 280 days, iter: 20160, max|uo|: (1.8e+00, 1.3e+00, 2.5e-03) m s⁻¹, extrema(To): (-2.6, 39.5) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.255 seconds 
+[ Info: time: 285 days, iter: 20520, max|uo|: (1.8e+00, 1.4e+00, 2.3e-03) m s⁻¹, extrema(To): (-2.3, 41.4) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 47.963 seconds 
+[ Info: time: 290 days, iter: 20880, max|uo|: (1.8e+00, 1.4e+00, 2.3e-03) m s⁻¹, extrema(To): (-3.1, 46.7) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 53.145 seconds 
+[ Info: time: 295 days, iter: 21240, max|uo|: (1.8e+00, 1.6e+00, 2.6e-03) m s⁻¹, extrema(To): (-3.0, 43.9) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.00 m² s⁻², wall time: 49.836 seconds 
+[ Info: time: 300 days, iter: 21600, max|uo|: (1.9e+00, 1.6e+00, 2.2e-03) m s⁻¹, extrema(To): (-2.5, 44.5) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 56.145 seconds 
+[ Info: time: 305 days, iter: 21960, max|uo|: (1.8e+00, 2.7e+00, 2.2e-03) m s⁻¹, extrema(To): (-2.7, 40.9) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.745 seconds 
+[ Info: time: 310 days, iter: 22320, max|uo|: (1.8e+00, 1.8e+00, 2.1e-03) m s⁻¹, extrema(To): (-2.7, 44.3) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.03 m² s⁻², wall time: 58.733 seconds 
+[ Info: time: 315 days, iter: 22680, max|uo|: (2.2e+00, 2.7e+00, 2.2e-03) m s⁻¹, extrema(To): (-2.2, 41.4) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.338 seconds 
+[ Info: time: 320 days, iter: 23040, max|uo|: (2.0e+00, 1.6e+00, 3.1e-03) m s⁻¹, extrema(To): (-2.0, 40.4) ᵒC, mean(To(z=0)): 15.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.336 seconds 
+[ Info: time: 325 days, iter: 23400, max|uo|: (1.8e+00, 1.5e+00, 2.7e-03) m s⁻¹, extrema(To): (-1.8, 38.6) ᵒC, mean(To(z=0)): 15.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.403 seconds 
+[ Info: time: 330 days, iter: 23760, max|uo|: (1.9e+00, 2.2e+00, 2.5e-03) m s⁻¹, extrema(To): (-1.9, 41.8) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.02 m² s⁻², wall time: 57.774 seconds 
+[ Info: time: 335 days, iter: 24120, max|uo|: (2.9e+00, 2.0e+00, 2.2e-03) m s⁻¹, extrema(To): (-1.7, 39.8) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.241 seconds 
+[ Info: time: 340 days, iter: 24480, max|uo|: (1.9e+00, 2.4e+00, 2.1e-03) m s⁻¹, extrema(To): (-1.9, 42.0) ᵒC, mean(To(z=0)): 15.6 ᵒC, max(e): 0.04 m² s⁻², wall time: 58.993 seconds 
+[ Info: time: 345 days, iter: 24840, max|uo|: (2.0e+00, 1.6e+00, 2.0e-03) m s⁻¹, extrema(To): (-2.0, 38.5) ᵒC, mean(To(z=0)): 15.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 49.577 seconds 
+[ Info: time: 350 days, iter: 25200, max|uo|: (2.1e+00, 1.4e+00, 2.0e-03) m s⁻¹, extrema(To): (-1.9, 37.1) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.185 minutes 
+[ Info: time: 355 days, iter: 25560, max|uo|: (2.3e+00, 1.7e+00, 2.0e-03) m s⁻¹, extrema(To): (-1.9, 41.5) ᵒC, mean(To(z=0)): 15.8 ᵒC, max(e): 0.04 m² s⁻², wall time: 51.072 seconds 
+[ Info: time: 360 days, iter: 25920, max|uo|: (2.2e+00, 2.4e+00, 2.0e-03) m s⁻¹, extrema(To): (-2.0, 37.8) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 54.635 seconds 
+[ Info: Simulation is stopping after running for 1.508 hours.
+[ Info: Simulation time 365 days equals or exceeds stop time 365 days.
+[ Info: time: 365 days, iter: 26280, max|uo|: (2.0e+00, 1.7e+00, 2.1e-03) m s⁻¹, extrema(To): (-2.0, 35.8) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.01 m² s⁻², wall time: 48.719 seconds 

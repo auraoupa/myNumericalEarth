@@ -1,0 +1,2 @@
+mkdir: cannot create directory '/bettik/alberta/NumericalEarth/tmpdir-one-degree-global-ocean-sea-ice-simulation-H200': File exists
+./job_kraken_H200.ksh: line 19: /bettik/alberta/bin/.juliaup/bin/julia: No such file or directory

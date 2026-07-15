@@ -1,0 +1,113 @@
+Precompiling packages...
+  22823.3 ms  ✓ CUDA_Runtime_jll
+  49094.2 ms  ✓ CUDA_Compiler_jll
+  60844.9 ms  ✓ CUDA
+  16542.4 ms  ✓ Atomix → AtomixCUDAExt
+  4 dependencies successfully precompiled in 158 seconds. 88 already precompiled.
+Precompiling packages...
+Info Given CUDAExt was explicitly requested, output will be shown live [0K
+[0KWARNING: Constructor for type "Buffer" was extended in `CUDAExt` without explicit qualification or import.
+[0K  NOTE: Assumed "Buffer" refers to `MPI.Buffer`. This behavior is deprecated and may differ in future versions.`
+[0K  NOTE: This behavior may have differed in Julia versions prior to 1.12.
+[0K  Hint: If you intended to create a new generic function of the same name, use `function Buffer end`.
+[0K  Hint: To silence the warning, qualify `Buffer` as `MPI.Buffer` in the method signature or explicitly `import MPI: Buffer`.
+  11200.5 ms  ✓ MPI → CUDAExt
+  1 dependency successfully precompiled in 25 seconds. 106 already precompiled.
+  1 dependency had output during precompilation:
+┌ MPI → CUDAExt
+│  [Output was shown above]
+└  
+Precompiling packages...
+  12438.7 ms  ✓ ArrayInterface → ArrayInterfaceCUDAExt
+  1 dependency successfully precompiled in 19 seconds. 96 already precompiled.
+Precompiling packages...
+  25758.1 ms  ✓ CUDA → SpecialFunctionsExt
+  1 dependency successfully precompiled in 69 seconds. 135 already precompiled.
+Precompiling packages...
+  50119.3 ms  ✓ Oceananigans → OceananigansCUDAExt
+  1 dependency successfully precompiled in 89 seconds. 148 already precompiled.
+[ Info: Loading cached bathymetry from /bettik/alberta/julia_myNEGPUA100/scratchspaces/904d977b-046a-4731-8b86-9235c0d1ef02/bathymetry_cache/bathymetry_360x180_0.0_360.0_-85.22387615721567_90.0_b841e80e.jld2
+[ Info: We've built an ocean simulation with model:
+[ Info: Initializing simulation...
+[ Info: time: 0 seconds, iter: 0, max|uo|: (0.0e+00, 0.0e+00, 0.0e+00) m s⁻¹, extrema(To): (-1.9, 31.3) ᵒC, mean(To(z=0)): 15.9 ᵒC, max(e): 0.00 m² s⁻², wall time: 4.545 minutes 
+[ Info:     ... simulation initialization complete (59.809 seconds)
+[ Info: Executing initial time step...
+[ Info:     ... initial time step complete (28.540 minutes).
+[ Info: time: 5 days, iter: 360, max|uo|: (1.6e+00, 1.7e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 31.7) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.27 m² s⁻², wall time: 29.749 minutes 
+[ Info: time: 10 days, iter: 720, max|uo|: (1.6e+00, 2.0e+00, 1.4e-02) m s⁻¹, extrema(To): (-1.9, 32.5) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.178 minutes 
+[ Info: time: 15 days, iter: 1080, max|uo|: (1.7e+00, 2.0e+00, 1.4e-02) m s⁻¹, extrema(To): (-1.9, 33.1) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.140 minutes 
+[ Info: time: 20 days, iter: 1440, max|uo|: (1.6e+00, 1.9e+00, 1.3e-02) m s⁻¹, extrema(To): (-1.9, 33.8) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.281 minutes 
+[ Info: time: 25 days, iter: 1800, max|uo|: (1.5e+00, 1.9e+00, 1.2e-02) m s⁻¹, extrema(To): (-1.9, 34.1) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.168 minutes 
+[ Info: time: 30 days, iter: 2160, max|uo|: (1.6e+00, 2.0e+00, 1.0e-02) m s⁻¹, extrema(To): (-1.9, 34.3) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.423 minutes 
+[ Info: time: 35 days, iter: 2520, max|uo|: (1.5e+00, 2.1e+00, 8.8e-03) m s⁻¹, extrema(To): (-1.9, 34.5) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.124 minutes 
+[ Info: time: 40 days, iter: 2880, max|uo|: (1.3e+00, 2.0e+00, 8.3e-03) m s⁻¹, extrema(To): (-1.9, 34.5) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.457 minutes 
+[ Info: time: 45 days, iter: 3240, max|uo|: (1.4e+00, 1.8e+00, 8.0e-03) m s⁻¹, extrema(To): (-1.9, 34.8) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.249 minutes 
+[ Info: time: 50 days, iter: 3600, max|uo|: (1.8e+00, 2.2e+00, 7.7e-03) m s⁻¹, extrema(To): (-2.0, 33.5) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.361 minutes 
+[ Info: time: 55 days, iter: 3960, max|uo|: (1.7e+00, 2.7e+00, 7.3e-03) m s⁻¹, extrema(To): (-1.9, 33.3) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.142 minutes 
+[ Info: time: 60 days, iter: 4320, max|uo|: (1.2e+00, 1.2e+00, 6.9e-03) m s⁻¹, extrema(To): (-1.9, 33.3) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.412 minutes 
+[ Info: time: 65 days, iter: 4680, max|uo|: (1.2e+00, 1.2e+00, 6.8e-03) m s⁻¹, extrema(To): (-1.9, 33.6) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.188 minutes 
+[ Info: time: 70 days, iter: 5040, max|uo|: (1.7e+00, 1.4e+00, 6.5e-03) m s⁻¹, extrema(To): (-1.9, 33.4) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.331 minutes 
+[ Info: time: 75 days, iter: 5400, max|uo|: (2.0e+00, 1.5e+00, 6.0e-03) m s⁻¹, extrema(To): (-1.9, 33.7) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.128 minutes 
+[ Info: time: 80 days, iter: 5760, max|uo|: (1.5e+00, 1.0e+00, 5.9e-03) m s⁻¹, extrema(To): (-1.9, 33.7) ᵒC, mean(To(z=0)): 16.7 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.534 minutes 
+[ Info: time: 85 days, iter: 6120, max|uo|: (1.6e+00, 1.4e+00, 5.9e-03) m s⁻¹, extrema(To): (-1.9, 33.9) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.188 minutes 
+[ Info: time: 90 days, iter: 6480, max|uo|: (2.4e+00, 1.2e+00, 5.7e-03) m s⁻¹, extrema(To): (-1.9, 33.8) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.326 minutes 
+[ Info: time: 95 days, iter: 6840, max|uo|: (1.6e+00, 1.2e+00, 5.5e-03) m s⁻¹, extrema(To): (-2.0, 33.6) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.309 minutes 
+[ Info: time: 100 days, iter: 7200, max|uo|: (1.6e+00, 1.9e+00, 5.2e-03) m s⁻¹, extrema(To): (-2.0, 34.0) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.550 minutes 
+[ Info: time: 105 days, iter: 7560, max|uo|: (1.7e+00, 1.6e+00, 5.1e-03) m s⁻¹, extrema(To): (-2.0, 34.2) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.124 minutes 
+[ Info: time: 110 days, iter: 7920, max|uo|: (1.8e+00, 1.5e+00, 5.1e-03) m s⁻¹, extrema(To): (-2.0, 34.1) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.412 minutes 
+[ Info: time: 115 days, iter: 8280, max|uo|: (1.8e+00, 1.3e+00, 5.0e-03) m s⁻¹, extrema(To): (-2.0, 33.7) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.108 minutes 
+[ Info: time: 120 days, iter: 8640, max|uo|: (1.8e+00, 1.3e+00, 4.9e-03) m s⁻¹, extrema(To): (-2.0, 34.1) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.00 m² s⁻², wall time: 1.258 minutes 
+[ Info: time: 125 days, iter: 9000, max|uo|: (1.8e+00, 1.3e+00, 4.7e-03) m s⁻¹, extrema(To): (-2.0, 34.1) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.245 minutes 
+[ Info: time: 130 days, iter: 9360, max|uo|: (1.8e+00, 1.5e+00, 4.4e-03) m s⁻¹, extrema(To): (-2.1, 34.2) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.343 minutes 
+[ Info: time: 135 days, iter: 9720, max|uo|: (1.7e+00, 1.5e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.1, 34.2) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.073 minutes 
+[ Info: time: 140 days, iter: 10080, max|uo|: (1.7e+00, 1.3e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.1, 34.1) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.329 minutes 
+[ Info: time: 145 days, iter: 10440, max|uo|: (1.6e+00, 1.3e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.2, 34.3) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.145 minutes 
+[ Info: time: 150 days, iter: 10800, max|uo|: (1.5e+00, 1.2e+00, 4.4e-03) m s⁻¹, extrema(To): (-2.2, 34.5) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.273 minutes 
+[ Info: time: 155 days, iter: 11160, max|uo|: (1.5e+00, 1.4e+00, 4.2e-03) m s⁻¹, extrema(To): (-2.3, 34.0) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.181 minutes 
+[ Info: time: 160 days, iter: 11520, max|uo|: (1.8e+00, 1.2e+00, 4.0e-03) m s⁻¹, extrema(To): (-2.3, 33.9) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.332 minutes 
+[ Info: time: 165 days, iter: 11880, max|uo|: (1.5e+00, 1.3e+00, 3.9e-03) m s⁻¹, extrema(To): (-2.3, 33.9) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.056 minutes 
+[ Info: time: 170 days, iter: 12240, max|uo|: (1.5e+00, 1.4e+00, 3.9e-03) m s⁻¹, extrema(To): (-2.4, 34.0) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.470 minutes 
+[ Info: time: 175 days, iter: 12600, max|uo|: (1.5e+00, 1.5e+00, 3.8e-03) m s⁻¹, extrema(To): (-2.5, 34.6) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.081 minutes 
+[ Info: time: 180 days, iter: 12960, max|uo|: (1.6e+00, 1.4e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.4, 35.5) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.210 minutes 
+[ Info: time: 185 days, iter: 13320, max|uo|: (1.7e+00, 1.3e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.5, 35.3) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.108 minutes 
+[ Info: time: 190 days, iter: 13680, max|uo|: (1.7e+00, 1.3e+00, 3.5e-03) m s⁻¹, extrema(To): (-2.6, 36.1) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.331 minutes 
+[ Info: time: 195 days, iter: 14040, max|uo|: (1.8e+00, 1.4e+00, 3.4e-03) m s⁻¹, extrema(To): (-2.6, 35.8) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.159 minutes 
+[ Info: time: 200 days, iter: 14400, max|uo|: (1.7e+00, 2.3e+00, 3.3e-03) m s⁻¹, extrema(To): (-2.7, 35.8) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.294 minutes 
+[ Info: time: 205 days, iter: 14760, max|uo|: (1.6e+00, 1.7e+00, 3.1e-03) m s⁻¹, extrema(To): (-2.5, 35.4) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.074 minutes 
+[ Info: time: 210 days, iter: 15120, max|uo|: (1.6e+00, 1.7e+00, 2.8e-03) m s⁻¹, extrema(To): (-2.7, 35.5) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.389 minutes 
+[ Info: time: 215 days, iter: 15480, max|uo|: (1.6e+00, 1.8e+00, 2.8e-03) m s⁻¹, extrema(To): (-2.4, 36.0) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.151 minutes 
+[ Info: time: 220 days, iter: 15840, max|uo|: (1.5e+00, 1.9e+00, 4.0e-03) m s⁻¹, extrema(To): (-2.8, 35.6) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.212 minutes 
+[ Info: time: 225 days, iter: 16200, max|uo|: (1.6e+00, 1.9e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.9, 34.9) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.211 minutes 
+[ Info: time: 230 days, iter: 16560, max|uo|: (1.6e+00, 1.8e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.9, 34.4) ᵒC, mean(To(z=0)): 16.6 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.279 minutes 
+[ Info: time: 235 days, iter: 16920, max|uo|: (1.5e+00, 1.7e+00, 3.0e-03) m s⁻¹, extrema(To): (-2.9, 34.7) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.122 minutes 
+[ Info: time: 240 days, iter: 17280, max|uo|: (1.6e+00, 1.7e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.9, 35.4) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.305 minutes 
+[ Info: time: 245 days, iter: 17640, max|uo|: (1.6e+00, 1.7e+00, 2.9e-03) m s⁻¹, extrema(To): (-3.0, 35.2) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.160 minutes 
+[ Info: time: 250 days, iter: 18000, max|uo|: (1.5e+00, 1.8e+00, 2.9e-03) m s⁻¹, extrema(To): (-3.1, 34.9) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.444 minutes 
+[ Info: time: 255 days, iter: 18360, max|uo|: (1.4e+00, 1.6e+00, 3.0e-03) m s⁻¹, extrema(To): (-3.0, 35.0) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.142 minutes 
+[ Info: time: 260 days, iter: 18720, max|uo|: (2.0e+00, 1.6e+00, 2.7e-03) m s⁻¹, extrema(To): (-3.0, 36.7) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.318 minutes 
+[ Info: time: 265 days, iter: 19080, max|uo|: (1.6e+00, 1.6e+00, 2.7e-03) m s⁻¹, extrema(To): (-3.1, 39.9) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.132 minutes 
+[ Info: time: 270 days, iter: 19440, max|uo|: (1.5e+00, 1.7e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.9, 43.1) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.306 minutes 
+[ Info: time: 275 days, iter: 19800, max|uo|: (1.5e+00, 1.6e+00, 2.7e-03) m s⁻¹, extrema(To): (-3.1, 44.8) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.099 minutes 
+[ Info: time: 280 days, iter: 20160, max|uo|: (1.6e+00, 1.4e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.8, 48.0) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.332 minutes 
+[ Info: time: 285 days, iter: 20520, max|uo|: (1.6e+00, 1.4e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.6, 49.9) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.146 minutes 
+[ Info: time: 290 days, iter: 20880, max|uo|: (1.5e+00, 1.4e+00, 2.6e-03) m s⁻¹, extrema(To): (-3.2, 51.7) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.432 minutes 
+[ Info: time: 295 days, iter: 21240, max|uo|: (1.5e+00, 1.4e+00, 2.6e-03) m s⁻¹, extrema(To): (-3.2, 54.7) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.120 minutes 
+[ Info: time: 300 days, iter: 21600, max|uo|: (1.5e+00, 1.7e+00, 2.5e-03) m s⁻¹, extrema(To): (-2.8, 53.7) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.435 minutes 
+[ Info: time: 305 days, iter: 21960, max|uo|: (1.6e+00, 2.6e+00, 2.4e-03) m s⁻¹, extrema(To): (-3.1, 56.6) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.210 minutes 
+[ Info: time: 310 days, iter: 22320, max|uo|: (1.6e+00, 1.9e+00, 2.3e-03) m s⁻¹, extrema(To): (-2.9, 58.5) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.273 minutes 
+[ Info: time: 315 days, iter: 22680, max|uo|: (2.2e+00, 2.7e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.6, 60.7) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.182 minutes 
+[ Info: time: 320 days, iter: 23040, max|uo|: (2.0e+00, 1.6e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.5, 61.2) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.242 minutes 
+[ Info: time: 325 days, iter: 23400, max|uo|: (1.7e+00, 1.5e+00, 2.2e-03) m s⁻¹, extrema(To): (-2.1, 62.9) ᵒC, mean(To(z=0)): 16.1 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.466 minutes 
+[ Info: time: 330 days, iter: 23760, max|uo|: (2.0e+00, 2.1e+00, 2.9e-03) m s⁻¹, extrema(To): (-2.2, 63.8) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.314 minutes 
+[ Info: time: 335 days, iter: 24120, max|uo|: (2.9e+00, 1.9e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.2, 63.5) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.188 minutes 
+[ Info: time: 340 days, iter: 24480, max|uo|: (1.7e+00, 2.4e+00, 2.7e-03) m s⁻¹, extrema(To): (-2.2, 36.2) ᵒC, mean(To(z=0)): 16.2 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.289 minutes 
+[ Info: time: 345 days, iter: 24840, max|uo|: (1.7e+00, 1.5e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.1, 33.5) ᵒC, mean(To(z=0)): 16.3 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.208 minutes 
+[ Info: time: 350 days, iter: 25200, max|uo|: (1.7e+00, 1.3e+00, 2.4e-03) m s⁻¹, extrema(To): (-1.9, 33.6) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.322 minutes 
+[ Info: time: 355 days, iter: 25560, max|uo|: (1.9e+00, 1.7e+00, 2.3e-03) m s⁻¹, extrema(To): (-1.9, 34.1) ᵒC, mean(To(z=0)): 16.4 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.082 minutes 
+[ Info: time: 360 days, iter: 25920, max|uo|: (1.9e+00, 2.3e+00, 2.4e-03) m s⁻¹, extrema(To): (-2.0, 33.9) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.02 m² s⁻², wall time: 1.391 minutes 
+[ Info: Simulation is stopping after running for 2.015 hours.
+[ Info: Simulation time 365 days equals or exceeds stop time 365 days.
+[ Info: time: 365 days, iter: 26280, max|uo|: (1.9e+00, 1.6e+00, 2.6e-03) m s⁻¹, extrema(To): (-2.0, 34.3) ᵒC, mean(To(z=0)): 16.5 ᵒC, max(e): 0.01 m² s⁻², wall time: 1.190 minutes 
+Precompiling packages...
+  43788.8 ms  ✓ CUDA → ChainRulesCoreExt
+  1 dependency successfully precompiled in 78 seconds. 98 already precompiled.

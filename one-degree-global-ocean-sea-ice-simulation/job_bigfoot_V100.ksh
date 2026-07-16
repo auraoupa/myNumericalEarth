@@ -9,11 +9,11 @@
 
 source ~/.bashrc
 
-mkdir /bettik/alberta/NumericalEarth/tmpdir-one-degree-global-ocean-sea-ice-simulation-V100
+mkdir -p /bettik/alberta/NumericalEarth/tmpdir-one-degree-global-ocean-sea-ice-simulation-V100
 
 cd /bettik/alberta/NumericalEarth/tmpdir-one-degree-global-ocean-sea-ice-simulation-V100
 
-cp /bettik/alberta/git/myNumericalEarth/one-degree-global-ocean-sea-ice-simulation/run_on_bigfoot.jl .
+cp /bettik/alberta/git/myNumericalEarth/one-degree-global-ocean-sea-ice-simulation/run_on_bigfoot_072026.jl .
 
-export JULIA_DEPOT_PATH=/bettik/alberta/julia_myNEGPU
-/home/alberta/.juliaup/bin/julia run_on_bigfoot.jl
+export JULIA_DEPOT_PATH=/bettik/alberta/julia_myNEGPUV100
+/home/alberta/.juliaup/bin/julia run_on_bigfoot_072026.jl

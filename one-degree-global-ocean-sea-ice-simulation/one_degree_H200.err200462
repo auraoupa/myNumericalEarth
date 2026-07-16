@@ -1,0 +1,20 @@
+┌ Warning: Runtime invalidation was disabled, but the CPU info is out-of-date.
+│ Will continue with incorrect CPU name (from build time).
+└ @ HostCPUFeatures /bettik/alberta/julia_myNEGPU/packages/HostCPUFeatures/ZTXz4/src/cpu_info.jl:71
+┌ Warning: Runtime invalidation was disabled, but the CPU info is out-of-date.
+│ Will continue with incorrect CPU feature flag: +avx512vp2intersect.
+└ @ HostCPUFeatures /bettik/alberta/julia_myNEGPU/packages/HostCPUFeatures/ZTXz4/src/cpu_info.jl:56
+┌ Warning: Runtime invalidation was disabled, but the CPU info is out-of-date.
+│ Will continue with incorrect CPU feature flag: +avxvnni.
+└ @ HostCPUFeatures /bettik/alberta/julia_myNEGPU/packages/HostCPUFeatures/ZTXz4/src/cpu_info.jl:56
+┌ Warning: Runtime invalidation was disabled, but the CPU info is out-of-date.
+│ Will continue with incorrect CPU feature flag: +movdiri.
+└ @ HostCPUFeatures /bettik/alberta/julia_myNEGPU/packages/HostCPUFeatures/ZTXz4/src/cpu_info.jl:56
+┌ Warning: Runtime invalidation was disabled, but the CPU info is out-of-date.
+│ Will continue with incorrect CPU feature flag: +movdir64b.
+└ @ HostCPUFeatures /bettik/alberta/julia_myNEGPU/packages/HostCPUFeatures/ZTXz4/src/cpu_info.jl:56
+┌ Warning: Runtime invalidation was disabled, but the CPU info is out-of-date.
+│ Will continue with incorrect CPU feature flag: -rdseed.
+└ @ HostCPUFeatures /bettik/alberta/julia_myNEGPU/packages/HostCPUFeatures/ZTXz4/src/cpu_info.jl:56
+[ Info: Loading cached bathymetry from /bettik/alberta/julia_myNEGPU/scratchspaces/904d977b-046a-4731-8b86-9235c0d1ef02/bathymetry_cache/bathymetry_360x180_0.0_360.0_-85.22387615721567_90.0_b841e80e.jld2
+[ Info: We've built an ocean simulation with model:
